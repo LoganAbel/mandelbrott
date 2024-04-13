@@ -14,6 +14,7 @@ float mandelbrot(vec2 p) {
     if(len > 256.)
       return (float(i) - log2(log2(len)) + 4.0) / float(MAX_ITER);
   }
+  return 0.;
 }
 
 vec3 mapcolor(float t) {
